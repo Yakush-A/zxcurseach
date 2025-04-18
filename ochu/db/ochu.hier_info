@@ -1,0 +1,24 @@
+|ochu
+P1 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+x1 => inst.IN0
+x1 => inst10.IN0
+x1 => inst15.IN0
+x1 => inst16.IN0
+x1 => inst23.IN0
+x2 => inst9.IN1
+x2 => inst5.IN0
+x2 => inst21.IN0
+x2 => inst22.IN0
+y1 => inst9.IN2
+y1 => inst10.IN2
+y1 => inst23.IN1
+h => inst8.IN0
+h => inst15.IN1
+h => inst21.IN1
+P3 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+y2 => inst16.IN1
+y2 => inst22.IN1
+P4 <= inst28.DB_MAX_OUTPUT_PORT_TYPE
+P2 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+
