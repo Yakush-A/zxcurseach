@@ -1,5 +1,5 @@
 Flow report for ochs
-Fri Apr 18 22:12:54 2025
+Tue Apr 29 18:53:03 2025
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; Flow Summary                                                      ;
 +-------------------------+-----------------------------------------+
-; Flow Status             ; Successful - Fri Apr 18 22:12:54 2025   ;
+; Flow Status             ; Successful - Tue Apr 29 18:53:03 2025   ;
 ; Quartus II Version      ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name           ; ochs                                    ;
 ; Top-level Entity Name   ; ochs                                    ;
@@ -58,7 +58,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/18/2025 22:12:52 ;
+; Start date & time ; 04/29/2025 18:53:00 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ochs                ;
 +-------------------+---------------------+
@@ -69,7 +69,7 @@ applicable agreement for further details.
 +---------------------------------------+------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                       ; Value                              ; Default Value ; Entity Name ; Section Id     ;
 +---------------------------------------+------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                 ; 277302812744015.174500357218804    ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                 ; 277302812744015.174594198005672    ; --            ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP                ; 85                                 ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP                ; 0                                  ; --            ; --          ; --             ;
 ; MISC_FILE                             ; D:/¿ËÀŒ÷”/zxcurseach/ochs/ochs.dpf ; --            ; --          ; --             ;
@@ -83,11 +83,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:01     ; 1.0                     ; 216 MB              ; 00:00:00                           ;
-; Fitter                  ; 00:00:01     ; 1.0                     ; 230 MB              ; 00:00:00                           ;
+; Analysis & Synthesis    ; 00:00:00     ; 1.0                     ; 216 MB              ; 00:00:00                           ;
+; Fitter                  ; 00:00:00     ; 1.0                     ; 230 MB              ; 00:00:00                           ;
 ; Assembler               ; 00:00:00     ; 1.0                     ; 200 MB              ; 00:00:00                           ;
-; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 170 MB              ; 00:00:00                           ;
-; Total                   ; 00:00:02     ; --                      ; --                  ; 00:00:00                           ;
+; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 170 MB              ; 00:00:00                           ;
+; Total                   ; 00:00:01     ; --                      ; --                  ; 00:00:00                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

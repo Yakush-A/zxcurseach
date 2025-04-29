@@ -35,6 +35,7 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8)(line_width 1))
 	)
 	(text "GND" (rect 136 7 157 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 224 96 264 112))
 )
 (pin
 	(input)
@@ -51,6 +52,7 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8)(line_width 1))
 	)
 	(text "GND" (rect 136 7 157 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 224 176 264 192))
 )
 (pin
 	(input)
@@ -67,6 +69,7 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8)(line_width 1))
 	)
 	(text "GND" (rect 136 7 157 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 224 256 264 272))
 )
 (pin
 	(input)
@@ -83,6 +86,7 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8)(line_width 1))
 	)
 	(text "GND" (rect 136 7 157 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 224 336 264 352))
 )
 (pin
 	(input)
@@ -99,6 +103,7 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8)(line_width 1))
 	)
 	(text "GND" (rect 136 7 157 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 224 416 264 432))
 )
 (pin
 	(output)
@@ -115,6 +120,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
+	(annotation_block (location)(rect 952 872 1000 888))
 )
 (pin
 	(output)
@@ -131,6 +137,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
+	(annotation_block (location)(rect 952 1216 1000 1232))
 )
 (pin
 	(output)
@@ -147,6 +154,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
+	(annotation_block (location)(rect 952 608 1000 624))
 )
 (symbol
 	(rect 440 104 504 152)
@@ -1493,19 +1501,9 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "x[1]" (rect 536 1016 554 1028)(font "Arial" ))
-	(pt 528 1032)
-	(pt 576 1032)
-)
-(connector
 	(pt 528 1032)
 	(pt 528 1048)
 	(bus)
-)
-(connector
-	(text "x[3]" (rect 536 1032 554 1044)(font "Arial" ))
-	(pt 528 1048)
-	(pt 576 1048)
 )
 (connector
 	(pt 576 1064)
@@ -1517,11 +1515,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "x[8]" (rect 536 1048 554 1060)(font "Arial" ))
-	(pt 528 1064)
-	(pt 576 1064)
-)
-(connector
 	(pt 576 1096)
 	(pt 576 1104)
 )
@@ -1531,19 +1524,9 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "x[1]" (rect 536 1080 554 1092)(font "Arial" ))
-	(pt 528 1096)
-	(pt 576 1096)
-)
-(connector
 	(pt 528 1096)
 	(pt 528 1112)
 	(bus)
-)
-(connector
-	(text "x[3]" (rect 536 1096 554 1108)(font "Arial" ))
-	(pt 528 1112)
-	(pt 576 1112)
 )
 (connector
 	(pt 576 1128)
@@ -1555,11 +1538,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "x[10]" (rect 536 1112 560 1124)(font "Arial" ))
-	(pt 528 1128)
-	(pt 576 1128)
-)
-(connector
 	(pt 576 1160)
 	(pt 576 1168)
 )
@@ -1569,19 +1547,9 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "x[4]" (rect 536 1144 554 1156)(font "Arial" ))
-	(pt 528 1160)
-	(pt 576 1160)
-)
-(connector
 	(pt 528 1160)
 	(pt 528 1176)
 	(bus)
-)
-(connector
-	(text "x[7]" (rect 536 1160 554 1172)(font "Arial" ))
-	(pt 528 1176)
-	(pt 576 1176)
 )
 (connector
 	(pt 576 1192)
@@ -1593,11 +1561,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "x[9]" (rect 536 1176 554 1188)(font "Arial" ))
-	(pt 528 1192)
-	(pt 576 1192)
-)
-(connector
 	(pt 576 1224)
 	(pt 576 1232)
 )
@@ -1607,19 +1570,9 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "x[3]" (rect 536 1208 554 1220)(font "Arial" ))
-	(pt 528 1224)
-	(pt 576 1224)
-)
-(connector
 	(pt 528 1224)
 	(pt 528 1240)
 	(bus)
-)
-(connector
-	(text "x[8]" (rect 536 1224 554 1236)(font "Arial" ))
-	(pt 528 1240)
-	(pt 576 1240)
 )
 (connector
 	(pt 576 1256)
@@ -1629,11 +1582,6 @@ applicable agreement for further details.
 	(pt 528 1240)
 	(pt 528 1256)
 	(bus)
-)
-(connector
-	(text "x[10]" (rect 536 1240 560 1252)(font "Arial" ))
-	(pt 528 1256)
-	(pt 576 1256)
 )
 (connector
 	(pt 576 1288)
@@ -1725,11 +1673,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "x[5]" (rect 536 1304 554 1316)(font "Arial" ))
-	(pt 528 1320)
-	(pt 576 1320)
-)
-(connector
 	(pt 576 1352)
 	(pt 576 1360)
 )
@@ -1739,20 +1682,10 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "x[2]" (rect 536 1336 554 1348)(font "Arial" ))
-	(pt 528 1352)
-	(pt 576 1352)
-)
-(connector
-	(text "x[1..10]" (rect 518 1336 530 1373)(font "Arial" )(vertical))
+	(text "x[1..10]" (rect 519 1335 531 1372)(font "Arial" )(vertical))
 	(pt 528 1352)
 	(pt 528 1368)
 	(bus)
-)
-(connector
-	(text "x[4]" (rect 536 1352 554 1364)(font "Arial" ))
-	(pt 528 1368)
-	(pt 576 1368)
 )
 (connector
 	(pt 576 1384)
@@ -1767,11 +1700,6 @@ applicable agreement for further details.
 	(pt 528 1384)
 	(pt 528 1408)
 	(bus)
-)
-(connector
-	(text "x[9]" (rect 536 1368 554 1380)(font "Arial" ))
-	(pt 528 1384)
-	(pt 576 1384)
 )
 (connector
 	(pt 752 600)
@@ -1789,6 +1717,86 @@ applicable agreement for further details.
 	(text "x[7]" (rect 536 680 554 692)(font "Arial" ))
 	(pt 528 696)
 	(pt 576 696)
+)
+(connector
+	(text "x[2]" (rect 536 1016 554 1028)(font "Arial" ))
+	(pt 528 1032)
+	(pt 576 1032)
+)
+(connector
+	(text "x[4]" (rect 536 1032 554 1044)(font "Arial" ))
+	(pt 528 1048)
+	(pt 576 1048)
+)
+(connector
+	(text "x[7]" (rect 536 1048 554 1060)(font "Arial" ))
+	(pt 528 1064)
+	(pt 576 1064)
+)
+(connector
+	(text "x[4]" (rect 536 1080 554 1092)(font "Arial" ))
+	(pt 528 1096)
+	(pt 576 1096)
+)
+(connector
+	(text "x[7]" (rect 536 1096 554 1108)(font "Arial" ))
+	(pt 528 1112)
+	(pt 576 1112)
+)
+(connector
+	(text "x[9]" (rect 536 1112 554 1124)(font "Arial" ))
+	(pt 528 1128)
+	(pt 576 1128)
+)
+(connector
+	(text "x[3]" (rect 536 1144 554 1156)(font "Arial" ))
+	(pt 528 1160)
+	(pt 576 1160)
+)
+(connector
+	(text "x[1]" (rect 536 1208 554 1220)(font "Arial" ))
+	(pt 528 1224)
+	(pt 576 1224)
+)
+(connector
+	(text "x[3]" (rect 536 1224 554 1236)(font "Arial" ))
+	(pt 528 1240)
+	(pt 576 1240)
+)
+(connector
+	(text "x[6]" (rect 536 1240 554 1252)(font "Arial" ))
+	(pt 528 1256)
+	(pt 576 1256)
+)
+(connector
+	(text "x[9]" (rect 536 1304 554 1316)(font "Arial" ))
+	(pt 528 1320)
+	(pt 576 1320)
+)
+(connector
+	(text "x[1]" (rect 536 1336 554 1348)(font "Arial" ))
+	(pt 528 1352)
+	(pt 576 1352)
+)
+(connector
+	(text "x[3]" (rect 536 1352 554 1364)(font "Arial" ))
+	(pt 528 1368)
+	(pt 576 1368)
+)
+(connector
+	(text "x[10]" (rect 536 1368 560 1380)(font "Arial" ))
+	(pt 528 1384)
+	(pt 576 1384)
+)
+(connector
+	(text "x[6]" (rect 536 1160 554 1172)(font "Arial" ))
+	(pt 528 1176)
+	(pt 576 1176)
+)
+(connector
+	(text "x[10]" (rect 536 1176 560 1188)(font "Arial" ))
+	(pt 528 1192)
+	(pt 576 1192)
 )
 (junction (pt 432 360))
 (junction (pt 432 328))

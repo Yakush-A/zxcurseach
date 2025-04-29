@@ -1,5 +1,5 @@
 Classic Timing Analyzer report for ochs
-Fri Apr 18 22:12:54 2025
+Tue Apr 29 18:53:03 2025
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -39,7 +39,7 @@ applicable agreement for further details.
 +------------------------------+-------+---------------+-------------+------+----+------------+----------+--------------+
 ; Type                         ; Slack ; Required Time ; Actual Time ; From ; To ; From Clock ; To Clock ; Failed Paths ;
 +------------------------------+-------+---------------+-------------+------+----+------------+----------+--------------+
-; Worst-case tpd               ; N/A   ; None          ; 8.653 ns    ; a2   ; S2 ; --         ; --       ; 0            ;
+; Worst-case tpd               ; N/A   ; None          ; 8.428 ns    ; b2   ; S2 ; --         ; --       ; 0            ;
 ; Total number of failed paths ;       ;               ;             ;      ;    ;            ;          ; 0            ;
 +------------------------------+-------+---------------+-------------+------+----+------------+----------+--------------+
 
@@ -94,20 +94,20 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------+-------------------+-----------------+------+-------+
 ; Slack ; Required P2P Time ; Actual P2P Time ; From ; To    ;
 +-------+-------------------+-----------------+------+-------+
-; N/A   ; None              ; 8.653 ns        ; a2   ; S2    ;
-; N/A   ; None              ; 8.562 ns        ; a2   ; carry ;
-; N/A   ; None              ; 8.562 ns        ; a1   ; S2    ;
-; N/A   ; None              ; 8.471 ns        ; a1   ; carry ;
-; N/A   ; None              ; 8.446 ns        ; p    ; S2    ;
-; N/A   ; None              ; 8.353 ns        ; p    ; carry ;
-; N/A   ; None              ; 8.258 ns        ; b1   ; S2    ;
-; N/A   ; None              ; 8.167 ns        ; b1   ; carry ;
-; N/A   ; None              ; 7.775 ns        ; b2   ; S1    ;
-; N/A   ; None              ; 7.750 ns        ; a1   ; S1    ;
-; N/A   ; None              ; 7.632 ns        ; p    ; S1    ;
-; N/A   ; None              ; 7.445 ns        ; b1   ; S1    ;
-; N/A   ; None              ; 7.433 ns        ; b2   ; carry ;
-; N/A   ; None              ; 7.356 ns        ; b2   ; S2    ;
+; N/A   ; None              ; 8.428 ns        ; b2   ; S2    ;
+; N/A   ; None              ; 8.292 ns        ; p    ; carry ;
+; N/A   ; None              ; 8.289 ns        ; b1   ; S2    ;
+; N/A   ; None              ; 8.199 ns        ; b1   ; carry ;
+; N/A   ; None              ; 8.127 ns        ; a1   ; carry ;
+; N/A   ; None              ; 8.028 ns        ; a1   ; S2    ;
+; N/A   ; None              ; 7.910 ns        ; a2   ; S2    ;
+; N/A   ; None              ; 7.815 ns        ; a2   ; carry ;
+; N/A   ; None              ; 7.735 ns        ; b2   ; S1    ;
+; N/A   ; None              ; 7.713 ns        ; a1   ; S1    ;
+; N/A   ; None              ; 7.608 ns        ; b2   ; carry ;
+; N/A   ; None              ; 7.570 ns        ; p    ; S1    ;
+; N/A   ; None              ; 7.478 ns        ; b1   ; S1    ;
+; N/A   ; None              ; 7.477 ns        ; p    ; S2    ;
 +-------+-------------------+-----------------+------+-------+
 
 
@@ -117,21 +117,21 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Info: *******************************************************************
 Info: Running Quartus II Classic Timing Analyzer
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Fri Apr 18 22:12:54 2025
+    Info: Processing started: Tue Apr 29 18:53:02 2025
 Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off ochs -c ochs
 Info: Started post-fitting delay annotation
 Info: Delay annotation completed successfully
-Info: Longest tpd from source pin "a2" to destination pin "S2" is 8.653 ns
-    Info: 1: + IC(0.000 ns) + CELL(1.132 ns) = 1.132 ns; Loc. = PIN_2; Fanout = 3; PIN Node = 'a2'
-    Info: 2: + IC(1.366 ns) + CELL(0.914 ns) = 3.412 ns; Loc. = LC_X2_Y4_N2; Fanout = 1; COMB Node = 'inst20~0'
-    Info: 3: + IC(0.710 ns) + CELL(0.200 ns) = 4.322 ns; Loc. = LC_X2_Y4_N0; Fanout = 1; COMB Node = 'inst20~1'
-    Info: 4: + IC(2.009 ns) + CELL(2.322 ns) = 8.653 ns; Loc. = PIN_35; Fanout = 0; PIN Node = 'S2'
-    Info: Total cell delay = 4.568 ns ( 52.79 % )
-    Info: Total interconnect delay = 4.085 ns ( 47.21 % )
+Info: Longest tpd from source pin "b2" to destination pin "S2" is 8.428 ns
+    Info: 1: + IC(0.000 ns) + CELL(1.132 ns) = 1.132 ns; Loc. = PIN_4; Fanout = 3; PIN Node = 'b2'
+    Info: 2: + IC(1.315 ns) + CELL(0.740 ns) = 3.187 ns; Loc. = LC_X2_Y4_N2; Fanout = 1; COMB Node = 'inst20~0'
+    Info: 3: + IC(0.710 ns) + CELL(0.200 ns) = 4.097 ns; Loc. = LC_X2_Y4_N0; Fanout = 1; COMB Node = 'inst20~1'
+    Info: 4: + IC(2.009 ns) + CELL(2.322 ns) = 8.428 ns; Loc. = PIN_35; Fanout = 0; PIN Node = 'S2'
+    Info: Total cell delay = 4.394 ns ( 52.14 % )
+    Info: Total interconnect delay = 4.034 ns ( 47.86 % )
 Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 184 megabytes
-    Info: Processing ended: Fri Apr 18 22:12:54 2025
-    Info: Elapsed time: 00:00:00
+    Info: Processing ended: Tue Apr 29 18:53:03 2025
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 
 

@@ -20,13 +20,13 @@ Altera or its authorized distributors.  Please refer to the
 applicable agreement for further details.
 */
 
-VECTOR("D:/¿ËÀŒ÷”/zxcurseach/ochs/db/ochs.sim.cvwf")
+VECTOR("D:/¿ËÀŒ÷”/zxcurseach/ochs/ochs_truth_table.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 404000;
-		NUMERATOR = 1010;
-		DENOMINATOR = 404000;
+		ZEND = 598000;
+		NUMERATOR = 1495;
+		DENOMINATOR = 598000;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
@@ -103,13 +103,13 @@ VECTOR("D:/¿ËÀŒ÷”/zxcurseach/ochs/db/ochs.sim.cvwf")
 	}
 }
 
-VECTOR("D:/¿ËÀŒ÷”/zxcurseach/ochs/ochs_truth_table.vwf")
+VECTOR("D:/¿ËÀŒ÷”/zxcurseach/ochs/db/ochs.sim.cvwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 598000;
-		NUMERATOR = 1495;
-		DENOMINATOR = 598000;
+		ZEND = 404000;
+		NUMERATOR = 1010;
+		DENOMINATOR = 404000;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
